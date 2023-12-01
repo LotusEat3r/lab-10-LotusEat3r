@@ -1,8 +1,9 @@
 import os
 os.system('conda activate stat386')
 import pandas as pd
-import seaborn as sns
+import numpy as np
 import streamlit as st
+import plotly.express as px
 
 st.title('Stock Data for March 1 - March 5')
 url = 'https://github.com/esnt/Data/blob/main/ClassExamples/stocks.csv'
