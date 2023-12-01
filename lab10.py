@@ -13,4 +13,4 @@ graph_penguins = penguins[(penguins['species'] == species) & (penguins['island']
 
 plot = sns.scatterplot(graph_penguins, x = 'bill_depth_mm', y = 'bill_length_mm')
 
-st.pyplot(plot)
+st.pyplot(plot.figure)
